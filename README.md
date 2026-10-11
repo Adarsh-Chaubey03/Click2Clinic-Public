@@ -125,8 +125,8 @@ The following items are planned enhancements and are not represented as complete
 
 ## Deployment
 
-- **Live Website:** _Add the deployed website URL_
-- **Demo Video:** _Add a demo link if available_
+- **Live Website:** _soon
+- **Demo Video:** _soon
 
 ## Responsible Use and Security
 
