@@ -125,8 +125,7 @@ The following items are planned enhancements and are not represented as complete
 
 ## Deployment
 
-- **Live Website:** _soon
-- **Demo Video:** _soon
+- **Live Patient Website:** [Click2Clinic](http://click2clinic.me/)
 
 ## Responsible Use and Security
 
