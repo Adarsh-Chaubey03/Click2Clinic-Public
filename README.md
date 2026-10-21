@@ -123,6 +123,7 @@ The following items are planned enhancements and are not represented as complete
 ## Deployment
 
 - **Live Patient Website:** [Click2Clinic](http://click2clinic.me/)
+- **Admin/Doctor Panel:** [Click2Clinic Admin Portal](https://admin.click2clinic.me/?utm_source=chatgpt.com)
 
 ## Responsible Use and Security
 
