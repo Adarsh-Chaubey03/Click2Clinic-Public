@@ -14,7 +14,7 @@ Click2Clinic brings patient services, doctor workflows, laboratory bookings, pha
 
 > **Public showcase:** This repository presents Click2Clinic for portfolio and evaluation purposes. It is an overview of the project, not the complete application source code(intentionally excluded).
 
-The project includes a patient-facing web application, an administration and doctor portal, a mobile client, and a backend API.
+The project includes a patient-facing web application, an administration and doctor portal, and a backend API.
 
 ## Key Features
 
@@ -24,7 +24,7 @@ The project includes a patient-facing web application, an administration and doc
 - **Consultation and communication** — Support consultation workflows and real-time communication.
 - **AI health assistant** — Collect symptom context and provide cautious, non-diagnostic health guidance.
 - **Doctor and administration tools** — Manage doctor profiles, schedules, appointments, inventory, and platform operations.
-- **Multi-platform access** — Patient web portal, admin/doctor portal, and Expo-based mobile application.
+- **Multi-platform access** — Patient web portal and admin/doctor portal.
 
 ## System Architecture
 
@@ -32,7 +32,6 @@ The project includes a patient-facing web application, an administration and doc
 flowchart TD
     P[Patient Web App - React / Vite]
     A[Admin and Doctor Portal - React / Vite]
-    M[Mobile App - Expo / React Native]
     API[Backend REST API - Node.js / Express]
     DB[(MongoDB / Mongoose)]
     AI[Google Gemini AI Services]
@@ -43,7 +42,6 @@ flowchart TD
 
     P --> API
     A --> API
-    M --> API
     API --> DB
     API --> AI
     API --> V
@@ -102,7 +100,6 @@ flowchart TD
 | --- | --- |
 | Patient Web | React 19, Vite, React Router, Tailwind CSS |
 | Admin and Doctor Portal | React, Vite |
-| Mobile | Expo, React Native, React Navigation |
 | Backend | Node.js, Express |
 | Database | MongoDB, Mongoose |
 | AI and RAG | Google Gemini, Gemini Embeddings, MongoDB Atlas Vector Search |
